@@ -27,7 +27,7 @@ export default class Component extends React.Component {
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit
                     </Modal.Body>
                     <Modal.Footer>
-                        <button type="button" className="modal-close-button btn btn-secondary" onClick={this.toggle}>Cancel</button>
+                        <button type="button" className="modal-close-button btn btn-default" onClick={this.toggle}>Cancel</button>
                     </Modal.Footer>
                 </Modal>
             </div>

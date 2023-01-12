@@ -13,8 +13,12 @@ class Modal extends React.Component {
         return <div className={`modal ${this.props.isOpen ? 'fade show' : ''}`}
                     style={this.props.isOpen ? {display: "block"} : {display: "none"}}
                     role="dialog">
+            <div className="modal-dialog">
+                <div className="modal-content">
                     {this.props.children}
-                </div>;
+                </div>
+            </div>
+        </div>;
     }
 }
 
