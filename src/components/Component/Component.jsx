@@ -34,25 +34,3 @@ export default class Component extends React.Component {
         );
     }
 }
-
-// <div>
-//     <button onClick={this.toggle} type="button" className="modal-open-button btn btn-danger">Open</button>
-//     <div className="modal" style={this.state.modal ? {display: "block"} : {display: "none"}} role="dialog">
-//         <div className="modal-dialog">
-//             <div className="modal-content">
-//                 <div className="modal-header">
-//                     <div className="modal-title">Modal title</div>
-//                     <button onClick={this.toggle} type="button" className="btn-close"
-//                             data-bs-dismiss="modal" aria-label="Close">
-//                     </button>
-//                 </div>
-//                 <div className="modal-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
-//                 <div className="modal-footer">
-//                     <button onClick={this.toggle} type="button"
-//                             className="modal-close-button btn btn-default">Cancel
-//                     </button>
-//                 </div>
-//             </div>
-//         </div>
-//     </div>
-// </div>
