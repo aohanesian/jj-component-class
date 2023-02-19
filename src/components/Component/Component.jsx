@@ -10,7 +10,13 @@ export default class Component extends React.Component {
     static Body = Body
     static Modal = Modal
 
-    state = {modal: false};
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            modal: false,
+        };
+    }
     toggle = (e) => {
         this.setState({
             modal: !this.state.modal,
@@ -27,7 +33,9 @@ export default class Component extends React.Component {
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit
                     </Modal.Body>
                     <Modal.Footer>
-                        <button type="button" className="modal-close-button btn btn-default" onClick={this.toggle}>Cancel</button>
+                        <button type="button" className="modal-close-button btn btn-default"
+                                onClick={this.toggle}>Cancel
+                        </button>
                     </Modal.Footer>
                 </Modal>
             </div>
